@@ -65,9 +65,20 @@ span{
 
 a{
 	text-decoration: none;
+	color:black;
 }
 a:hover{
+	color:red;
 	text-decoration:underline;
+}
+
+li a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+	
+a:visited{
+	color:black;
 }
 #logo{
 	width: 100px;
